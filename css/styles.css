@@ -1,0 +1,116 @@
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+.logo{
+    color: blue;
+}
+.logo-dark{
+    color: black;
+}
+.logo-withe{
+    color: white;
+}
+.navigation{
+  
+}
+.navigation :focus,
+.navigation :hover{
+    color: #2196F3;
+}
+.navigation-link{
+    font-family: 'Roboto';
+    color: #212121;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.navigation-contacts{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #30c01d;
+}
+.navigation-contacts :focus,
+.navigation-contacts :hover{
+    color: #2196F3;
+}
+.navigation-contacts-tel{
+    color: #757575;
+}
+.hero-text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+background: #2F303A
+}
+.button{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+color: #FFFFFF;
+background: #2196F3;
+}
+.button:hover,
+.button:focus{
+    color: orange;
+}
+.advantage{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+
+}
+.advantage-link{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 2;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.works{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.team{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+background: #F5F4FA;
+}
+p{
+    
+}
