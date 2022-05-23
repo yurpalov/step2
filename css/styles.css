@@ -1,3 +1,11 @@
+:root{--primary-text-color:#212121;}
+:root{--secondary-text-color:#757575;}
+:root{--accent-color:#2196F3;}
+:root{--white-color:#FFFFFF;}
+.body{
+    font-family:'Roboto','Raleway'sans-serif;
+    color: var(--primary-text-color);
+}
 .list{
     list-style: none;
 }
@@ -5,56 +13,56 @@
     text-decoration: none;
 }
 .logo{
-    color: blue;
+    font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.93;
+letter-spacing: 0.03em;
+color: var(--accent-color);
 }
 .logo-dark{
     color: black;
 }
 .logo-withe{
-    color: white;
+    color: var(--white-color);
 }
 .navigation{
   
 }
 .navigation :focus,
 .navigation :hover{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .navigation-link{
-    font-family: 'Roboto';
-    color: #212121;
-font-style: normal;
-font-weight: 500;
+        color: var(--primary-text-color);
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 }
 .navigation-contacts{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 30px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #30c01d;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+        color: var(--secondary-text-color);
+    
 }
 .navigation-contacts :focus,
 .navigation-contacts :hover{
-    color: #2196F3;
+    color:var(--accent-color);
 }
 .navigation-contacts-tel{
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 .hero-text{
-    font-family: 'Roboto';
-font-style: normal;
+ 
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #FFFFFF;
+color: var(--white-color);
 background: #2F303A
 }
 .button{
@@ -63,22 +71,22 @@ font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
-color: #FFFFFF;
-background: #2196F3;
+color: var(--white-color);
+background: var(--accent-color);
 }
 .button:hover,
 .button:focus{
-    color: orange;
-}
+    color:var(--white-color);
+    background: #188CE8;
+    }
 .advantage{
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
+color: var(--primary-text-color);
 
 }
 .advantage-link{
@@ -88,7 +96,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 2;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--secondary-text-color)
 }
 .works{
     font-family: 'Roboto';
@@ -98,7 +106,7 @@ font-size: 36px;
 line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--primary-text-color);
 }
 .team{
     font-family: 'Roboto';
@@ -108,9 +116,89 @@ font-size: 36px;
 line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--primary-text-color);
 background: #F5F4FA;
 }
-p{
-    
+.team{
+   font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+.team-list{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+.team-list-foto{
+   font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color)
+}
+.footer{
+   background: #2F303A;
+ }
+.footer-address-list-link{
+   font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.footer-address-list-city{
+   font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--white-color);
+}
+
+.filters-link-button{
+    background: #F5F4FA;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.63;
+              text-align: center;
+        letter-spacing: 0.03em;
+            color: var(--primary-text-color);
+    }
+
+.filters-link-button:hover,
+.filters-link-button:focus{
+    background: var(--accent-color);
+    color: var(--white-color);
+}
+.projects{
+
+}
+.projects-list{
+
+}
+
+.projects-list-item{
+
+}
+
+.projects-list-item-img{
+
+}
+.projects-list-item-h{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+     letter-spacing: 0.06em;
+        color: var(--primary-text-color);
+}
+.projects-list-item-p{
+    font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color)
 }
