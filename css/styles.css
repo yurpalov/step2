@@ -2,8 +2,8 @@
 :root{--secondary-text-color:#757575;}
 :root{--accent-color:#2196F3;}
 :root{--white-color:#FFFFFF;}
-.body{
-    font-family:'Roboto','Raleway'sans-serif;
+body{
+    font-family:'Roboto',sans-serif;
     color: var(--primary-text-color);
 }
 .list{
@@ -39,6 +39,9 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 }
+.navigation-link.active{
+    color: red;
+}
 .navigation-contacts{
     font-weight: 500;
     font-size: 14px;
@@ -73,6 +76,7 @@ font-size: 16px;
 line-height: 1.88;
 color: var(--white-color);
 background: var(--accent-color);
+cursor: pointer;
 }
 .button:hover,
 .button:focus{
@@ -109,9 +113,7 @@ letter-spacing: 0.03em;
 color: var(--primary-text-color);
 }
 .team{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
+    font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 text-align: center;
